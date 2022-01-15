@@ -131,7 +131,7 @@ html {
 }
 
 .heading-title::before {
-  background-image: linear-gradient(to right, rgba(64, 37, 113, 1), rgba(51, 32, 102, 1));
+  background-image: linear-gradient(to right, #4A2D48, #4A2D48);
   animation: animateTyping var(--typeSpeed) steps(var(--textLength)) forwards;
 }
 
@@ -304,7 +304,7 @@ text-align:justify;
 }
 
 .background-xenith {
-  background-color: rgb(63,37,112);
+  background-color:#4A2D48;
   transition: all 0.8s ease-in;
 }
 
