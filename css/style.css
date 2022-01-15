@@ -386,7 +386,6 @@ text-align:justify;
     height: 100vh;
     overflow: hidden;
     padding: 5%;
-    background-color: white;
   }
 }
 
@@ -2108,7 +2107,6 @@ time {
     height: 100vh;
     overflow: hidden;
     padding: 5%;
-    background-color: white;
   }
 
   .event-card {
