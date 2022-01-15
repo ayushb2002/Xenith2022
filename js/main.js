@@ -83,8 +83,8 @@ var refresh = setInterval(function () {
 const createSponsorCard = (name, spType, imageUrl, link = "") => {
   var parent = document.createElement("div");
   parent.className = "col-md-4";
-  parent.style.marginTop = "30px";
-
+  parent.style.marginBottom = "120px";
+  parent.style.marginTop = "0px";
   var card = document.createElement("div");
   card.className = "sponsor-card";
 
