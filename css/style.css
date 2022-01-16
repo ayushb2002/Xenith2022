@@ -412,7 +412,7 @@ text-align:justify;
 }
 
 .footer .footer-bottom {
-  background: rgb(59, 35, 108);
+  background: #462A44;
   color: #686868;
   
   width: 95%;
@@ -1465,7 +1465,7 @@ section {
 }
 
 .footer-distributed{
-	  background: rgb(59, 35, 108);
+	  background: #462A44;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
