@@ -162,7 +162,6 @@ function scrollHandler() {
 window.addEventListener('scroll', scrollHandler);
 
 function animateIfInView() {
-  console.log('hi');
   $.each($('.wow'), function(key, value) {
     if (isElementInViewport($(value))) {
       $(value).addClass('wow-in-view');
@@ -186,3 +185,14 @@ function isElementInViewport(el) {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
   );
 }
+$('#menu li').click(function(){
+  var check =document.getElementById("menuclose");
+  if(check.checked==true)
+  {
+check.checked=false;
+  }
+});
+
+$('input[type="checkbox"]').click(function(e){
+  e.stopPropagation();
+});
