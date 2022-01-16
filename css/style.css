@@ -2172,7 +2172,7 @@ time {
 
 @media only screen and (max-width: 400px){
   #about {
-    height:215vw !important;
+    height:205vw !important;
     overflow: hidden;
   }
   .abt
@@ -2201,7 +2201,19 @@ time {
   margin-top: 5vh;
 }
 }
-@media only screen and (max-width: 327px) {
+@media only screen and (max-width: 375px) {
+  #about {
+    height:240vw !important;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 355px) {
+  #about {
+    height:260vw !important;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 340px) {
   #about {
     height:160vh !important;
     overflow: hidden;
