@@ -319,7 +319,7 @@ text-align:justify;
 }
 
 #about {
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
   padding: 5%;
 }
@@ -2188,4 +2188,10 @@ time {
   {
     top:54%;
   }
+}
+@media  screen and (min-height:700px) and (max-width:1200px) and (min-width:700px) 
+{
+  .uk-position-center {
+    top: calc(35% - var(--uk-position-margin-offset));
+}
 }
