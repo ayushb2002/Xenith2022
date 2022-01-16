@@ -2249,6 +2249,12 @@ time {
   }
 }
   
+@media only screen and (max-width: 310px) {
+  #about {
+    height:180vh!important;
+    overflow: hidden;
+  }
+}
 @media  screen and (min-height:700px) and (max-width:1200px) and (min-width:700px) 
 {
   .uk-position-center {
