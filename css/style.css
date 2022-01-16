@@ -1186,7 +1186,7 @@ main {
 }
  
 .uk-position-top-center {
-  top:auto !important;
+  top:0px!important;
 }
 /* .image-card:hover .content {
   transform: perspective(50px) translateZ(2px);
@@ -2162,7 +2162,7 @@ time {
   }
   .abt
   {
-    margin-top: 17vw;
+    margin-top: 14vw;
   }
   .col-md-4
   {
@@ -2177,7 +2177,11 @@ time {
   }
   .abt
   {
-    margin-top: 9vh;
+    margin-top: 7vh;
+  }
+  .sectionHead
+  {
+    line-height: 1.1;
   }
 #event {
     height: 200vw;
@@ -2211,7 +2215,7 @@ time {
 }
 .abt
 {
-  margin-top:10vh;
+  margin-top:7vh;
 }
 #event
 {
