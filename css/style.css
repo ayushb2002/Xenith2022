@@ -1639,7 +1639,7 @@ section {
   }
 
   :root {
-    --size: 300px;
+    --size: 290px;
   }
 }
 #event{
@@ -2000,14 +2000,15 @@ time {
   padding: 42px 0;
   flex-wrap: wrap;
 }
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 410px) {
   .sponsor-card{
-    width: 106vw;
+    width:100vw;
 
   }
   
   
 }
+
 
 .sponsor-card .container {
   position: relative;
@@ -2070,6 +2071,7 @@ time {
   z-index: 2;
   font-size: 1.5rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 .sponsor-card .container img {
@@ -2169,8 +2171,11 @@ time {
   {
     margin-top: 0;
   }
-
+  .heading-title {
+    font-size: 0.9em ;
 }
+}
+
 .parallax {
   background: url('../src/post/Digita.png') repeat fixed 100%;
   background-size: 120% 100%;
